@@ -1,13 +1,8 @@
-def arihmetic(a, b, c):
-    if c == '*':
-        print(a * b)
-    elif c == '+':
-        print(a + b)
-    elif c == '-':
-        print(a - b)
-    elif c == "//":
-        print(a / b)
-    else:
-        print('Неизвестная строка')
+r = input()
+if str(r) == str(r)[::-1] :
+    print("Palindrome")
+else:
+    print("Not Palindrome")
 
-arihmetic(3, 2, "*")
+
+
